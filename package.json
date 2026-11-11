@@ -1,0 +1,22 @@
+{
+  "name": "opencode-keyring",
+  "version": "1.0.0",
+  "description": "Resolves {keyring:attribute value ...} placeholders in opencode config from the freedesktop secret service via secret-tool",
+  "type": "module",
+  "main": "./index.ts",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "plugin",
+    "keyring",
+    "secret-tool",
+    "secrets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themastersheep/opencode-keyring.git"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.14.19"
+  }
+}
